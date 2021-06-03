@@ -1,0 +1,47 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+ background-image: linear-gradient(to bottom right, red, yellow, green);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.conv {
+  background-color: Gray;
+  color: white;
+  border-radius: 8px;
+  margin: 60px 100px;
+  padding: 30px 100px;
+  }
+
+.btn-outline-secondary {
+margin: 30px auto 0;
+display: block;
+color: #fff;
+border: 2px solid #fff;
+background-color: blue;
+}
+
+.button-wrapper {
+margin: 30px auto;
+width: 200px;
+display: block;
+}
+
+.btn-primary {
+background-color: blue;
+border: 2px solid #fff;
+}
+
+.btn-primary:hover,
+.btn-outline-secondary:hover {
+background-color: dodgerblue;
+border: 2px solid #fff;
+cursor: pointer;
+}
+

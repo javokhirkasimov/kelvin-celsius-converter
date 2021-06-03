@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block action %}
+ <form action="conv-to-kelvin">
+    <input type="text" class="form-control" placeholder="Celsius number" name="num">
+    <button name="convert-celsius" class="btn btn-outline-secondary" style="" type="submit" id="button-addon2">Convert</button>
+  </form>
+  <h1>
+    {% block output %}
+    {% endblock %}
+  </h1>
+{% endblock %}
